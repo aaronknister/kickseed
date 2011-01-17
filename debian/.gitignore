@@ -1,0 +1,6 @@
+*.debhelper*
+*.substvars
+files
+initrd-kickseed
+kickseed-common
+
