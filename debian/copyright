@@ -3,10 +3,6 @@ The Kickstart-to-preseed translator was written by Colin Watson
 package were taken from that package, and are copyright 2004 by Joey Hess
 <joeyh@debian.org> and others.
 
-The source is available using Subversion from:
-
-  svn://svn.debian.org/svn/d-i/trunk/packages/kickseed/
-
 Copyright (c) 2005, 2006, 2007 Canonical Ltd.
 
   kickseed is free software; you can redistribute it and/or modify it
