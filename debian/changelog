@@ -1,3 +1,9 @@
+kickseed (0.56) UNRELEASED; urgency=low
+
+  * Preseed partman-lvm/confirm_overwrite as well as partman-lvm/confirm.
+
+ -- Colin Watson <cjwatson@debian.org>  Fri, 28 Jan 2011 17:50:32 +0000
+
 kickseed (0.55) unstable; urgency=low
 
   * Preseed mirror/country to "manual" instead of "enter information

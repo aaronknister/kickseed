@@ -145,6 +145,7 @@ logvol_handler () {
 logvol_final () {
 	if [ "$logvol_confirm" ]; then
 		ks_preseed d-i partman-lvm/confirm boolean true
+		ks_preseed d-i partman-lvm/confirm_nooverwrite boolean true
 	fi
 }
 
