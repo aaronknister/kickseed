@@ -1,6 +1,9 @@
 kickseed (0.56) UNRELEASED; urgency=low
 
   * Preseed partman-lvm/confirm_overwrite as well as partman-lvm/confirm.
+  * Preseed partman-lvm/device_remove_lvm when confirming logvol results,
+    since Kickstart doesn't have a separate control with a one-to-one
+    correspondence to this (LP: #708548).
 
  -- Colin Watson <cjwatson@debian.org>  Fri, 28 Jan 2011 17:50:32 +0000
 
