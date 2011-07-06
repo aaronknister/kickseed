@@ -8,6 +8,7 @@ kickseed (0.56) UNRELEASED; urgency=low
     lines from Kickstart files (LP: #715746).  Note that this may break some
     existing Kickstart files that tried to work around the previous
     behaviour; this seems like the lesser of two evils.
+  * Allow ksdevice=bootif, with netcfg 1.63.
 
  -- Colin Watson <cjwatson@debian.org>  Fri, 28 Jan 2011 17:50:32 +0000
 
