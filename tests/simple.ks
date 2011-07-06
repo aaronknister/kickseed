@@ -46,3 +46,5 @@ echo "A warning should be printed for the attempt to use dash."
 
 echo "This is a %post script."
 echo "It does nothing very interesting, in a chroot."
+# test backslash interpretation
+sed -i -e "s/^\s*#*\s*\(account\s*required\s*pam_access\.so.*\)/\1/" /etc/pam.d/login /etc/pam.d/sshd
