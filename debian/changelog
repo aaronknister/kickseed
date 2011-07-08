@@ -1,4 +1,4 @@
-kickseed (0.56) UNRELEASED; urgency=low
+kickseed (0.56) unstable; urgency=low
 
   * Preseed partman-lvm/confirm_overwrite as well as partman-lvm/confirm.
   * Preseed partman-lvm/device_remove_lvm when confirming logvol results,
@@ -10,7 +10,7 @@ kickseed (0.56) UNRELEASED; urgency=low
     behaviour; this seems like the lesser of two evils.
   * Allow ksdevice=bootif, with netcfg 1.63.
 
- -- Colin Watson <cjwatson@debian.org>  Fri, 28 Jan 2011 17:50:32 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 08 Jul 2011 16:02:55 +0100
 
 kickseed (0.55) unstable; urgency=low
 
