@@ -1,4 +1,9 @@
-if TERM_UTF8="$TERM_UTF8" TERM_FRAMEBUFFER="$TERM_FRAMEBUFFER" \
+# TODO: initrd-setup and initrd-kickseed need to run inside the context of
+# the main menu in order to be usable with the GTK frontend, since otherwise
+# it starts up an initial X client which exits quickly and causes the X
+# server to exit.
+if [ "$DEBIAN_FRONTEND" != gtk ] && \
+   TERM_UTF8="$TERM_UTF8" TERM_FRAMEBUFFER="$TERM_FRAMEBUFFER" \
 		/lib/kickseed/initrd-setup; then
 	/lib/kickseed/initrd-kickseed || true
 fi
