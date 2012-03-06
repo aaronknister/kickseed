@@ -1,10 +1,10 @@
-kickseed (0.57) UNRELEASED; urgency=low
+kickseed (0.57) unstable; urgency=low
 
   * Disable kickseed for now when using the GTK frontend, as otherwise it
     starts up an initial X client which exits quickly and causes the Xserver
     to exit (LP: #939278).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Tue, 06 Mar 2012 11:29:55 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 06 Mar 2012 11:34:27 +0000
 
 kickseed (0.56) unstable; urgency=low
 
