@@ -1,3 +1,9 @@
+kickseed (0.58) unstable; urgency=low
+
+  * Rebuild for xz udebs.
+
+ -- Philipp Kern <pkern@debian.org>  Fri, 22 Jun 2012 23:08:43 +0200
+
 kickseed (0.57) unstable; urgency=low
 
   * Disable kickseed for now when using the GTK frontend, as otherwise it
