@@ -18,7 +18,7 @@ volgroup_pull_recipe () {
 				if [ "$want_pvname" = "$got_pvname" ]; then
 					partition_recipe_append "$line vg_name{ $vgname }"
 				else
-					rest="${rest:+$rest }$line ."
+                                        rest="${rest:+$rest }$line \$pending_lvm{ $got_pvname } ."
 				fi
 				line=
 				;;
